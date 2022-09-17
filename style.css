@@ -1,0 +1,476 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.clearflix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+/* master-start */
+
+.master{
+    width:90%;
+    background-color:white;
+    margin:auto;
+    margin:auto;
+    margin-top:0px;
+}
+
+/* banner-start */
+
+.banner{
+    background-image:url("dd.jpg");
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+    color:white;
+    margin:0px;
+    padding-bottom:200px;
+    width:100%;
+}
+
+.title {
+    margin-top:50px;
+    float:left;
+    margin-left:100px;
+    width:50%;
+}
+
+p{
+    color:darkgray;
+    
+}
+
+.manu{
+    float:right;
+    margin-right:100px;
+    margin-top: 50px;
+
+}
+
+li{
+    float:left;
+    list-style:none;
+    margin-right:20px;
+}
+
+.banner-text{
+    position:relative;
+    top:120px;
+    left:150px;
+    text-align:center;
+    width:70%;
+}
+
+/* banner-finish */
+
+/* box1-start */
+
+.box1{
+    width:100%;
+    background-color:white;
+    padding-bottom:50px;
+    padding-top:20px;
+    
+}
+
+.one{
+    width:28%;
+    background-color:white;
+    border-right:1px solid grey;
+    padding-bottom:20px;
+    float:left;
+    margin-left:50px;
+    
+}
+
+.one-1{
+    width:28%;
+    background-color:white;
+    padding-bottom:20px;
+    float:left;
+    margin-left:50px;
+
+}
+
+.one h3{
+    color:#5098CD;
+}
+
+.one p{
+    font-size:12px;
+    line-height:20px;
+}
+
+.one-1 h3{
+    color:#5098CD;
+}
+
+.one-1 p{
+    font-size:12px;
+    line-height:20px;
+}
+
+.rrr{
+    width:60px;
+    height:30px;
+    border:0px;
+    color:white;
+    background-color:#5098CD;
+}
+
+/* box1-finish */
+
+/* box2-start */
+
+.box2{
+    width:100%;
+    background-color:#5098CD;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+
+.box2-text{
+    margin:auto;
+    width:50%;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.box2-text h2{
+    color:white;
+    font-weight:300;
+}
+
+.box2-text p{
+    font-size:10px;
+}
+
+.jan{
+    width:20%;
+    color:white;
+    background-color:#5098CD;
+    float:left;
+    margin-left:50px;
+    border:1px solid white;
+    text-align:center;
+}
+
+.jan img{
+    width:80%;
+    border-radius: 50%;
+    padding:20px;
+}
+
+/* box2-finish */
+/* box3-start */
+
+.box3{
+    width:100%;
+    background-color:white;
+    margin-top:70px;
+    padding-bottom: 50px;
+
+}
+
+.box3-text{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.box3-text h2{
+    color:#5098CD;
+}
+
+.box3-text p{
+    font-size:10px;
+}
+
+.sun{
+    width:40%;
+    float:left;
+    margin-left:75px;
+}
+
+.sun img{
+    width:100%;
+}
+
+.sun h3{
+    color:#5098CD;
+}
+
+.sun p{
+    font-size:10px;
+    line-height:20px;
+}
+
+/* sun - finish */
+
+hr{
+    width:90%;
+    background-color: grey;
+}
+
+.footer{
+    width:90%;
+    background-color:white;
+    margin:auto;
+}
+
+.icon{
+    float:right;
+    margin-top:-30px;
+    font-size:20px;
+    color:#5098CD;
+    
+}
+
+.icon span{
+    margin-right:20px;
+
+}
+
+/* Media query start */
+
+@media only screen and (max-width:700px){
+    .master{
+        width:80%;
+ }
+
+ .banner{
+    width:100%;
+    height:40px;
+    background-position:center top;
+}
+
+.title {
+    margin-top:30px;
+    font-size:13px;
+    margin-left:50px;
+    width:50%;
+}
+
+.manu{
+    margin-right:10px;
+    margin-top: 10px;
+    font-size:13px;
+
+}
+
+li{
+    margin-right:10px;
+}
+
+.banner-text{
+    position:relative;
+    top:60px;
+    left:90px;
+    text-align:center;
+    width:50%;
+    
+}
+
+.banner-text h1{
+    font-weight:300;
+    font-size:18px;
+}
+
+.banner-text p{
+    font-size:6px;
+}
+
+/* banner-finish */
+
+/* box1-start */
+
+.box1{
+    width:100%;
+    background-color:white;
+    padding-bottom:30px;
+    padding-top:10px;
+    
+}
+
+.one{
+    width:80%;
+    background-color:white;
+    border-right:0px solid grey;
+    padding-bottom:20px;
+    float:left;
+    margin-left:40px;
+    
+}
+
+.one-1{
+    width:80%;
+    padding-bottom:20px
+    margin-left:50px;
+
+}
+
+.one h3{
+    font-size:15px;
+}
+
+.one p{
+    font-size:10px;
+    line-height:15px;
+}
+
+.one-1 h3{
+    color:#5098CD;
+    font-size:15px;
+}
+
+.one-1 p{
+    font-size:10px;
+    line-height:15px;
+}
+
+.rrr{
+    width:40px;
+    height:20px;
+    border:0px;
+    font-size:12px;
+}
+
+/* box1-finish */
+
+.box2{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:80%;
+    margin-left:50px;
+
+}
+
+.box2-text{
+    margin:auto;
+    width:100%;
+    margin-bottom:30px;
+    
+}
+
+.box2-text h2{
+    color:white;
+    font-weight:300;
+    font-size:25px;
+    line-height:12px;
+}
+
+.box2-text p{
+    font-size:10px;
+}
+
+.jan{
+    width:100%;
+    color:white;
+    margin-left:-1px;
+    line-height:12px;
+}
+
+.jan img{
+    width:50%;
+    border-radius: 50%;
+    padding:15px;
+}
+
+/* box2-finish */
+
+/* box3-start */
+
+.box3{
+    width:100%;
+    background-color:white;
+    margin-top:70px;
+    padding-bottom: 30px;
+
+}
+
+.box3-text{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.box3-text h2{
+    color:#5098CD;
+    font-size:20px;
+}
+
+.box3-text p{
+    font-size:8px;
+}
+
+.sun{
+    width:90%;
+    float:left;
+    margin-left:40px;
+}
+
+.sun img{
+    width:100%;
+}
+
+.sun h3{
+    color:#5098CD;
+    font-size:15px;
+}
+
+.sun p{
+    font-size:8px;
+    line-height:15px;
+}
+
+/* sun - finish */
+/* footer start */
+.footer{
+    width:90%;
+    background-color:white;
+    margin:auto;
+}
+
+.footer p{
+    font-size:8px;
+}
+
+.icon{
+    float:right;
+    margin-top:-18px;
+    font-size:17px;
+    color:#5098CD;
+    
+}
+
+.icon span{
+    margin-right:13px;
+
+}
+
+.hr{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
